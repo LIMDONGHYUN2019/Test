@@ -13,3 +13,4 @@ git branch -M main
 10. git push -u origin master / main 
 
 일반적으로 원격저장소 별칭 - origin
+한번 연결되었으면 remote add origin 주소를 또 할 필요는 없다.
