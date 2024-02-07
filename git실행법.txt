@@ -1,0 +1,15 @@
+1. 원하는 파일/ 폴더 선택후 git bash here 실행
+2. git init으로 로컬 깃 저장소를 생성 master표시 확인
+3. github으로 돌아가서 repository의 주소를 복사
+4. git remote add origin 복사한 주소 
+- 로컬저장소에서 origin에다 내가 생성한 Repository의 저장소 주소를 연결한것.
+5. git remove -v으로 연결확인. 연결 실패시 빈공간
+6. 만약 기존에 파일,폴더가 있거나 readme파일이 있다면 main 브랜치가 default로 설정되었기 떄문
+git branch -M main
+7. git pull origin main 으로 마지막 커밋을 로컬 저장소의 커밋 로그의 맨 앞으로 받아온다.
+원격 저장소와 로컬 저장소와 상태를 맞춰준것.
+8. git add .    /  변경된 모든 내용을 add
+9. git commit -m "커밋내용"
+10. git push -u origin master / main 
+
+일반적으로 원격저장소 별칭 - origin
