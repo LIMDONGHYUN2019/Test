@@ -1,0 +1,11 @@
+Github 100Mb 이상 올리는법.
+
+1. git lfs install 
+
+2. git lfs track "파일명"
+
+3. git add 파일명
+
+4. git commit -m "넣고싶은 부속말"
+
+5. git push origin master

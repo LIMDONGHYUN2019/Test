@@ -1,0 +1,32 @@
+git hub사용법
+
+1.일단 해당 파일로 가서 Git Bash Here을 통해 Git Bash을 열고
+
+2.git init으로 해당 파일 경로가 제대로 되어있는지 확인한다.
+
+3.git status로 파일들을 업로드가능한 파일들을 확인한다.
+만약 여기서 없는것이 있다면 그 파일은 현재 tracked 상태이다.
+
+4, 이제 git add 원하는 파일 / 폴더 이름 으로
+tracked상태로 만들어준다.
+
+5, git commit -m "원하는 내용"
+이 기능은 업로드할 파일의 한줄 메모를 적는 기능이다.
+
+6.다시한번 git status를 실행하고
+업로드할 파일이 tracked상태가 됬는지 확인한다.
+
+7.로컬 저장소의 변경사항을 원격 저장소로 연동해야한다.
+github의 저장할 파일내부의 주소를 복사한후
+git remote add origin 주소 를 입력하여
+원격 저장소로 연결을 시도한다.
+
+8.git remote -v로 통해
+현재 어느 원격저장소의 주소와 연동되어있는지 확인할수 있고
+push 와  fetch가 나올것이다.
+
+9.git push origin master를 통해
+이제 업로드가 될것이다.
+
+10.그리고 마지막으로 반드시 tracked된 것을 
+untrakced 상태로 만들어줘야한다.
